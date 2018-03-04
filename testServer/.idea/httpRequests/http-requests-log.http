@@ -1,0 +1,77 @@
+GET http://localhost:3000/people
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+<> 2018-02-28T100131.200.json
+
+###
+
+POST http://localhost:3000/people
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"name": "Ann-Sofie", "age": 23, "gender": "female", "email": "annsofie@riis.dk"}
+
+<> 2018-02-28T100127.201.json
+
+###
+
+GET http://localhost:3000/people
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+<> 2018-02-28T100029.200.json
+
+###
+
+GET http://localhost:3000/people/1
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+<> 2018-02-28T100025.200.json
+
+###
+
+PUT http://localhost:3000/people/1
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"name": "Luna", "age": 0, "gender": "female", "email": "luna@luna.dk"}
+
+<> 2018-02-28T100020.200.json
+
+###
+
+GET http://localhost:3000/people
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+<> 2018-02-28T095837.200.json
+
+###
+
+POST http://localhost:3000/people
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"name": "Luna"}
+
+<> 2018-02-28T095829.201.json
+
+###
+
+GET http://localhost:3000/people
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-28T095513.200.json
+
+###
+

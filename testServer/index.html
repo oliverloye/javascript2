@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+    <button id="showAllUsers" onclick="getAllUsers()">All users</button>
+    <br>
+        <input type="number" id="inputNumber" placeholder="Enter ID...">
+        <input id="showUser" type="submit" onclick="getUserById()">
+    <br>
+    <div>Add new user:</div>
+    <input type="text" id="inputAge" placeholder="Enter age...">
+    <input type="text" id="inputName" placeholder="Enter name...">
+    <select name="gender" id="inputGender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+    </select>
+    <input type="text" id="inputEmail" placeholder="Enter email...">
+    <input id="addNewUser" type="submit" onclick="addUser()">
+    <div id="divShow" align="center"></div>
+<script src="myscript.js"></script>
+</body>
+</html>
